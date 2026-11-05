@@ -7,5 +7,8 @@ git commit -m [commit message] - will commit the changes to the repo. This doesn
 git diff - will show the changes made or edited, but not yet added or comitted
 git add -u .     # updated files in the current directory (and below)
 git add -u :/    # updated files in the whole repository
+git restore [filename] - to discard changes in working directory, git checkout can also be used, but it's old way and the name is confusing. Better to use restore.
+git log - will show all the commits and its ids, useful to roll back to pretty far in the past.
+git show HEAD - to get the description of just the last commit.
 
 -u is short for --update
