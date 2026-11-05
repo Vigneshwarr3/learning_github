@@ -5,3 +5,7 @@ git branch -m [branch name] - will change the branch name that you are working o
 git add - to add the newly created files or edits to tell that the file/files belong to this repo and move it to tracked state.
 git commit -m [commit message] - will commit the changes to the repo. This doesn't mean that the changes are pushed to the remote repo in github.com.
 git diff - will show the changes made or edited, but not yet added or comitted
+git add -u .     # updated files in the current directory (and below)
+git add -u :/    # updated files in the whole repository
+
+-u is short for --update
