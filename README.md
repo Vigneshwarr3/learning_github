@@ -11,4 +11,8 @@ git restore [filename] - to discard changes in working directory, git checkout c
 git log - will show all the commits and its ids, useful to roll back to pretty far in the past.
 git show HEAD - to get the description of just the last commit.
 
+trying to understand what is git revert is.
+trying to understand what is git revert is.
+trying to understand what is git revert is.
+
 -u is short for --update
